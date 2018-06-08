@@ -1,0 +1,31 @@
+{
+  "name": "ddos-defender",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TRicKST-R/ddos-defender.git"
+  },
+  "keywords": [
+    "ddos",
+    "rate",
+    "limiting",
+    "koa",
+    "express",
+    "hapijs",
+    "hapi"
+  ],
+  "author": "Alex Sharnin <alexsharnin@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TRicKST-R/ddos-defender/issues"
+  },
+  "homepage": "https://github.com/TRicKST-R/ddos-defender",
+  "devDependencies": {
+    "body-parser": "",
+    "express": "",
+    "hapi": "^16.4.3",
+    "koa": ""
+  }
+}
