@@ -26,7 +26,7 @@ Now we loop back to **Rule 2** when that when expiry is less than or equal to 0,
 
 ### With [Express](https://github.com/expressjs/expressjs.com "Express")
 
-    var Ddos = require('ddos')
+    var Ddos = require('ddos-defender')
     var express = require('express')
     var ddos = new Ddos;
     var app = express();
@@ -35,7 +35,7 @@ Now we loop back to **Rule 2** when that when expiry is less than or equal to 0,
 
 ### With [HapiJS](https://hapijs.com/ "HapiJS")
 
-    var Ddos = require('ddos')
+    var Ddos = require('ddos-defender')
     var Hapi = require('hapi');
 
     var ddos = new Ddos;
@@ -44,7 +44,7 @@ Now we loop back to **Rule 2** when that when expiry is less than or equal to 0,
 
 ### With [Koa](http://koajs.com "KoaJS")
 
-    var Ddos = require('ddos')
+    var Ddos = require('ddos-defender')
     var koa = require('koa')
     var ddos = new Ddos;
 
@@ -55,7 +55,7 @@ Now we loop back to **Rule 2** when that when expiry is less than or equal to 0,
 ### With [Router-Middleware](https://github.com/rook2pawn/router-middleware "Router Middleware")
 
     var Router = require('router-middleware');
-    var Ddos = require('ddos')
+    var Ddos = require('ddos-defender')
 
     var ddos = new Ddos;
     var app = Router();
