@@ -1,5 +1,5 @@
 
-    var Ddos = require('ddos')
+    var Ddos = require('ddos-defender')
     var express = require('express')
     var ddos = new Ddos({burst:10, limit:15})
     var app = express();
